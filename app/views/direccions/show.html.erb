@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Calle:</strong>
+  <%= @direccion.calle %>
+</p>
+
+<p>
+  <strong>Numero:</strong>
+  <%= @direccion.numero %>
+</p>
+
+<p>
+  <strong>Comuna:</strong>
+  <%= @direccion.comuna %>
+</p>
+
+<p>
+  <strong>Ciudad:</strong>
+  <%= @direccion.ciudad %>
+</p>
+
+<p>
+  <strong>Pais:</strong>
+  <%= @direccion.pais %>
+</p>
+
+<p>
+  <strong>Usuario:</strong>
+  <%= @direccion.usuario %>
+</p>
+
+<%= link_to 'Edit', edit_direccion_path(@direccion) %> |
+<%= link_to 'Back', direccions_path %>
